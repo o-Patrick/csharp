@@ -13,7 +13,7 @@ namespace Aula03
       string nome = "Bruno";
       var aux = nome;
 
-      Console.WriteLine(aux);
+      Console.WriteLine("Valor da variável: " + aux);
     }
   }
 }
