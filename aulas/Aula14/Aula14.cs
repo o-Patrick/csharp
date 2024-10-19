@@ -51,12 +51,12 @@ namespace Aula13
       Console.WriteLine("Deseja reiniciar o programa? [s] Sim | [n] Não");
       reiniciar = char.Parse(Console.ReadLine());
 
-      if (reiniciar != 's' & reiniciar != 'n')
+      if (reiniciar != 's' & reiniciar != 'n' & reiniciar != 'N')
       {
         Console.Clear();
         Console.WriteLine("Opção inválida! Tente novamente.");
         goto pergunta;
-      } else if (reiniciar == 's')
+      } else if (reiniciar == 's' | reiniciar == 'S')
       {
         goto inicio;
       } else
